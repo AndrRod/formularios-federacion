@@ -31,8 +31,6 @@ function App(){
     // documentoAcuerdoIndividual.id = "texto"
   
     console.log(documentoAcuerdoIndividual)
-    const documentoMarco = document.createElement("body");
-    
     
     doc.html(documentoAcuerdoIndividual, {
       callback: function (pdf) {
