@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s alternate-reverse;
   }
 }
 
@@ -33,6 +33,46 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(100deg);
   }
+}
+#texto{  
+  display:flex;
+  width: 570px;
+  height: 820px;  
+  /* padding-top: 4%;
+  padding-left: 15%;
+  padding-right: 10%;
+  margin: 20%; */
+  padding: 10px 20px 50px 60px;
+  /* margin:100%; */
+  text-align: justify;
+  /* visibility: hidden; */
+  /* align-items:; */
+  /* justify-content: center; */
+  /* min-height: 100vh; */
+  font-size: 12px;
+}
+#fecha {
+  width: 550px;
+  text-align: right;  /* width: 45%; */
+  padding: 30px, 20px, 0px, 60px;
+  font-size: 12px;
+  }
+#titulo{
+  width: 550px;
+  text-align: center;  /* width: 45%; */
+  margin-top: 30px;
+  padding: 50px, 20px, 3px, 60px;
+  font-size: 12px;
+}
+#firma{
+  width: 550px;
+  text-align: center;  /* width: 45%; */
+  padding: 40px, 20px, 0px, 60px;
+  font-size: 12px;
+}
+.container{
+  padding: 5%; 
+  
 }
